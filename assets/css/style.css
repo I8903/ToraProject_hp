@@ -1,0 +1,439 @@
+@charset "UTF-8";
+
+/* hero section */
+#hero {
+  width: 100%;
+  height: auto;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+
+#hero img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+#hero p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 150px;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+#subhero {
+  width: 100%;
+  height: auto;
+}
+
+#subhero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#subhero p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 150px;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+/* company section */
+#company {
+  width: 100%;
+  height: auto;
+  padding-bottom: 135px;
+}
+
+#company img {
+  width: 60%;
+  height: auto;
+}
+
+#company h2 {
+  font-size: 250%;
+  padding-bottom: 8px;
+  letter-spacing: 5px;
+}
+
+.company-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-content {
+  width: 40%;
+  height: auto;
+  margin-left: 120px;
+}
+
+/* products section */
+#products {
+  width: 100%;
+  height: auto;
+  padding-bottom: 135px;
+}
+
+#products img {
+  width: 60%;
+  height: auto;
+}
+
+#products h2 {
+  font-size: 250%;
+  padding-bottom: 8px;
+  letter-spacing: 5px;
+}
+
+.products-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.products-content {
+  width: 40%;
+  height: auto;
+  margin-left: 120px;
+}
+
+
+/* charm section */
+#charm {
+  width: 100%;
+  height: auto;
+  background-color: #0161ad;
+  color: #fff;
+  text-align: center;
+  padding: 72px 0;
+  margin-bottom: 135px;
+}
+
+#charm h2 {
+  font-size: 250%;
+  padding-bottom: 6px;
+  letter-spacing: 3px;
+}
+
+#charm div {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#charm ul li {
+  text-align: left;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #020202;
+  margin-bottom: 32px;
+}
+
+#charm ul li:hover {
+  opacity: 0.6;
+}
+
+#charm ul li h3 {
+  padding-bottom: 8px;
+  font-size: 150%;
+}
+
+
+/* solution section */
+#solution {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 135px;
+}
+
+#solution h2 {
+  font-size: 200%;
+  padding-bottom: 6px;
+  letter-spacing: 3px;
+}
+
+#solution .section-subtitle {
+  padding-bottom: 64px;
+}
+
+.solutions-box {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.solution-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.solution-image {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.solution-title {
+  font-size: 130%;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.solution-text {
+  font-size: 100%;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+/* news section */
+#news {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 135px 0;
+}
+
+.news-bg {
+  background-color: #ffffff;
+  background-image: linear-gradient(45deg, #0161ad1a 25%, transparent 25%, transparent 75%, #0161ad1a 75%), linear-gradient(45deg, #0161ad1a 25%, transparent 25%, transparent 75%, #0161ad1a 75%);
+  background-position: 10px 10px, 14px 14px;
+  background-size: 8px 8px;
+}
+
+#news div {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#news h2 {
+  font-size: 250%;
+  padding-bottom: 6px;
+  letter-spacing: 3px;
+}
+
+#news ul li {
+  text-align: left;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #020202;
+  margin-bottom: 32px;
+}
+
+
+/* contact section */
+#contact {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 200%;
+  padding-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: #ff6600;
+  font-size: 12px;
+  margin-left: 6px;
+  padding: 2px 6px;
+  background: #ffac4e27;
+  border-radius: 3px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #0161ad;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  opacity: 0.8;
+}
+
+.privacy-check {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.privacy-check input {
+  margin-right: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  /* hero / subhero */
+  #hero,
+  #subhero {
+    padding-bottom: 60px;
+  }
+
+  #hero img,
+  #subhero img {
+    height: 260px;
+    /* 固定高を小さめに */
+    object-fit: cover;
+  }
+
+  #hero p,
+  #subhero p {
+    font-size: 1.4rem;
+    padding-bottom: 60px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+
+  /* company / products：縦並びにして中央寄せ */
+  .company-inner,
+  .products-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #company img,
+  #products img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .company-content,
+  .products-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #company,
+  #products {
+    padding-bottom: 80px;
+  }
+
+  #company h2,
+  #products h2 {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  /* charm */
+  #charm {
+    padding: 48px 0;
+    margin-bottom: 80px;
+  }
+
+  #charm>div {
+    width: 90%;
+  }
+
+  #charm h2 {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  #charm ul li {
+    font-size: 0.95rem;
+  }
+
+  /* solution */
+  .solutions-box {
+    width: 60%;
+  }
+
+  .solution-list {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .solution-image {
+    width: 40%;
+  }
+
+  .solution-title {
+    font-size: 1.1rem;
+  }
+
+  .solution-text {
+    font-size: 0.95rem;
+  }
+
+  #solution {
+    padding-bottom: 80px;
+  }
+
+  #solution h2 {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  /* news */
+  #news {
+    padding: 80px 0;
+  }
+
+  #news div {
+    width: 60%;
+  }
+
+  #news h2 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  #news ul li {
+    margin-bottom: 20px;
+  }
+
+  /* contact */
+  #contact {
+    padding: 32px 16px;
+  }
+
+  #contact h2 {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+  }
+}
