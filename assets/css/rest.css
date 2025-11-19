@@ -74,6 +74,9 @@ p {
   border-radius: 5px;
   text-align: center;
   border: #333 solid 1px;
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translateY(30px);
 }
 
 .btn:hover {
@@ -85,11 +88,37 @@ p {
   font-weight: 600;
   padding-bottom: 32px;
   letter-spacing: 2px;
+  opacity: 0;
+  transition: all 1.2s;
+  transform: translateY(30px);
 }
 
 .section-text {
   font-size: 90%;
   padding-bottom: 72px;
+  opacity: 0;
+  transition: all 1.65s;
+  transform: translateY(30px);
+}
+
+.wappear {
+  max-width: 1500px;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.section-title {
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateY(30px);
+}
+
+.section-title.appear,
+.section-subtitle.appear,
+.section-text.appear,
+.btn.appear {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 
@@ -109,9 +138,6 @@ header img {
 }
 
 .header-inner {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 1em;
   height: 90px;
   display: flex;
   justify-content: space-between;
@@ -189,27 +215,16 @@ footer p {
   margin: 0 0 0 auto;
 }
 
-
-
-/* ================================
-   スマホサイズ（768px以下）
-================================ */
 @media (max-width: 768px) {
-
-  /* 全体余白 */
-  body {
-    padding-top: 80px;
-    /* 固定ヘッダーに被らないよう調整 */
-  }
 
   /* 共通の余白・文字 */
   .section-subtitle {
     padding-bottom: 16px;
-    font-size: 14px;
+    font-size: 75%;
   }
 
   .section-text {
-    font-size: 14px;
+    font-size: 75%;
     padding-bottom: 40px;
   }
 
@@ -240,7 +255,6 @@ footer p {
   /* footer */
   footer {
     padding: 10% 5%;
-    text-align: center;
   }
 
   .footer-inner {
@@ -250,8 +264,6 @@ footer p {
   }
 
   footer ul {
-    flex-direction: column;
-    gap: 10px;
     padding-bottom: 16px;
     margin-bottom: 16px;
   }
